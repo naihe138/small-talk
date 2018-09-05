@@ -14,10 +14,10 @@ class App extends Component {
         <Header />
         <section className="container">
           <div className="connet">
-
+            左边联系人
           </div>
           <div className="content">
-
+            右边聊天内容
           </div>
         </section>
       </div>
