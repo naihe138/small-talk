@@ -67,6 +67,44 @@
 
 .tab {
   height: 100%;
-  background: #3dc651;
   flex: 1;
+  display: flex;
+}
+
+.tab-button {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.tab-button span {
+  margin-left: 20px;
+}
+
+.tab-button span.active i{
+  color: #32b9ef;
+}
+
+.tab-button span i{
+  color: #888a92;
+  font-size: 24px;
+}
+
+.tab-button span:nth-of-type(1) {
+  margin-left: 20%;
+}
+
+.avarter {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avarter img {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
 }
