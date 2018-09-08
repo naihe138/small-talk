@@ -32,7 +32,20 @@ class App extends Component {
             </ul>
           </div>
           <div className="contentBox">
-            右边聊天内容
+            <div className="showContent">
+              <div className="chatItem">
+                <img className="chatAvater" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1934952861,3453579486&fm=27&gp=0.jpg" />
+                <div className="chatContent">
+                  <h3 className="chatName">hewenli</h3>
+                  <div className="sentContet">
+                    <p className="chatText">123412341234123412341234123412341234</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="inputBox">
+              
+            </div>
           </div>
         </section>
       </div>

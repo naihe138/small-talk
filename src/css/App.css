@@ -120,10 +120,10 @@
   width: 220px;
   overflow-x: hidden;
   overflow-y: auto;
+  border-right: 1px solid #f6f7f9;
 }
 .contentBox {
   flex: 1;
-  background: #888a92;
 }
 
 .listItem {
@@ -165,7 +165,42 @@
 
 .nameBox p {
   font-size: 12px;
-  color: #777777;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.showContent {
+  height: 70%;
+  border-bottom: 1px solid #f6f7f9;
+}
+
+.chatItem {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.chatItem .chatAvater {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.chatContent {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.chatName {
+  font-weight: normal;
+  color: #9ea9cc;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.sentContet {
+  background: #f3f3f3;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
 }
