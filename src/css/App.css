@@ -171,9 +171,14 @@
 
 .showContent {
   height: 70%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  
   border-bottom: 1px solid #f6f7f9;
 }
-
+.showContent::-webkit-scrollbar { 
+  width: 0 !important 
+}
 .chatItem {
   width: 100%;
   display: flex;
@@ -203,4 +208,22 @@
   padding: 10px;
   border-radius: 4px;
   display: inline-block;
+  word-break: break-all;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.chatContent::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-width: 0 0 20px 20px;
+  border-style: solid;
+  border-bottom-color: inherit;   /*自动继承父元素的border-bottom-color*/
+  border-left-color: transparent;
+  border-radius: 0 0 60px 0;
+  background: red;
 }

@@ -38,7 +38,7 @@ class App extends Component {
                 <div className="chatContent">
                   <h3 className="chatName">hewenli</h3>
                   <div className="sentContet">
-                    <p className="chatText">123412341234123412341234123412341234</p>
+                    <p className="chatText">12341234123412341234123412341234123奥术大师多阿萨德爱上412341234123412341234123412341234123奥术大师多阿萨德爱上412341234123412341234123412341234123奥术大师多阿萨德爱上412341234123412341234123412341234123奥术大师多阿萨德爱上4</p>
                   </div>
                 </div>
               </div>
