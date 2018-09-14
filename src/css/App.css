@@ -189,11 +189,13 @@
   width: 30px;
   height: 30px;
   border-radius: 30px;
+  margin-top: 10px;
 }
 
 .chatContent {
   flex: 1;
   margin-left: 10px;
+  position: relative;
 }
 
 .chatName {
@@ -216,14 +218,11 @@
 .chatContent::after {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  border-width: 0 0 20px 20px;
+  top: 27px;
+  left: -9px;
+  width: 0px;
+  height: 0px;
+  border-width: 0px 13px 14px 0px;
   border-style: solid;
-  border-bottom-color: inherit;   /*自动继承父元素的border-bottom-color*/
-  border-left-color: transparent;
-  border-radius: 0 0 60px 0;
-  background: red;
+  border-color: transparent #f3f3f3 transparent transparent;
 }

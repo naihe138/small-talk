@@ -42,6 +42,24 @@ class App extends Component {
                   </div>
                 </div>
               </div>
+              <div className="chatItem">
+                <img className="chatAvater" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1934952861,3453579486&fm=27&gp=0.jpg" />
+                <div className="chatContent">
+                  <h3 className="chatName">hewenli</h3>
+                  <div className="sentContet">
+                    <p className="chatText">12341234123412341234123412341234123奥术大师多阿萨德爱上412341234123412341234123412341234123奥术大师多阿萨德爱上412341234123412341234123412341234123奥术大师多阿萨德爱上412341234123412341234123412341234123奥术大师多阿萨德爱上4</p>
+                  </div>
+                </div>
+              </div>
+              <div className="chatItem">
+                <img className="chatAvater" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1934952861,3453579486&fm=27&gp=0.jpg" />
+                <div className="chatContent">
+                  <h3 className="chatName">hewenli</h3>
+                  <div className="sentContet">
+                    <p className="chatText">12341234123412341234123412341234123奥术大师多阿萨德爱上412341234123412341234123412341234123奥术大师多阿萨德爱上412341234123412341234123412341234123奥术大师多阿萨德爱上412341234123412341234123412341234123奥术大师多阿萨德爱上4</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="inputBox">
               
