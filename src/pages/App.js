@@ -71,7 +71,13 @@ class App extends Component {
               </div>
             </div>
             <div className="inputBox">
-              
+              <div className="tool">
+                <span className="iconfont icon-biaoqing"></span>
+                <span className="iconfont icon-tupian"></span>
+              </div>
+              <div className="inputText">
+                <textarea placeholder="123" />
+              </div>
             </div>
           </div>
         </section>

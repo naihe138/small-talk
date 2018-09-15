@@ -156,7 +156,7 @@
 }
 
 .nameBox h3 {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   width: 100%;
   overflow: hidden;
@@ -218,7 +218,7 @@
 }
 .sentContet {
   background: #f3f3f3;
-  font-size: 14px;
+  font-size: 12px;
   padding: 10px;
   border-radius: 4px;
   display: inline-block;
@@ -255,4 +255,43 @@
   border-width: 0px 0px 14px 13px;
   border-style: solid;
   border-color: transparent transparent transparent #dbf4fc;
+}
+
+.tool {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.tool span {
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 20px;
+  color: #888a92;
+}
+.tool span:nth-child(1) {
+  font-size: 25px;
+}
+
+.tool span:hover {
+  color: #00bbf7;
+}
+
+.inputBox {
+  height: 29%;
+}
+
+.inputText {
+  height: calc(100% - 40px);
+}
+
+.inputText textarea{
+  height: 100%;
+  width: 100%;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 12px;
+  resize: none;
 }
