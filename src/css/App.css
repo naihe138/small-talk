@@ -185,6 +185,11 @@
   box-sizing: border-box;
   padding: 10px;
 }
+
+.chatself {
+  justify-content: flex-end;
+}
+
 .chatItem .chatAvater {
   width: 30px;
   height: 30px;
@@ -193,9 +198,13 @@
 }
 
 .chatContent {
-  flex: 1;
   margin-left: 10px;
   position: relative;
+}
+
+.chatself .chatContent {
+  margin-left: 0px;
+  margin-right: 10px;
 }
 
 .chatName {
@@ -203,6 +212,9 @@
   color: #9ea9cc;
   font-size: 12px;
   margin-bottom: 5px;
+}
+.chatself .chatName {
+  text-align: right;
 }
 .sentContet {
   background: #f3f3f3;
@@ -215,6 +227,10 @@
   position: relative;
 }
 
+.chatself .sentSelfContet {
+  background: #dbf4fc;
+}
+
 .chatContent::after {
   content: '';
   position: absolute;
@@ -225,4 +241,18 @@
   border-width: 0px 13px 14px 0px;
   border-style: solid;
   border-color: transparent #f3f3f3 transparent transparent;
+}
+.chatself .chatContent::after {
+  display: none
+}
+.chatself .sentSelfContet::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  right: -9px;
+  width: 0px;
+  height: 0px;
+  border-width: 0px 0px 14px 13px;
+  border-style: solid;
+  border-color: transparent transparent transparent #dbf4fc;
 }
